@@ -32,12 +32,12 @@ public class HelloWorld {
         System.out.println(myString);*/
 //4 ✅
    /* float myString;
-    myString = (float) 3.14159;
+    myString = (float) 3.14159f;
     System.out.println(myString);*/
 //5 ✅  //corriculumn asked me not to fill the var(for future me)
 /*long myNumber;
 *//*System.out.println(myNumber);*/
-//6                   //shpuld maybe be float
+//6                   //should maybe be float
 /*double myNumber = 3.14;
 System.out.println(myNumber);*/
 //7
@@ -47,8 +47,9 @@ System.out.println(myNumber);*/
          /*myNumber = 3.14;*/
 
 //9
-
-
+    //declare # as float
+         float myNumber = 3.14f;
+        System.out.println(myNumber);
 //10
 //Increments 5-6
         /*int x = 5;
@@ -63,6 +64,9 @@ System.out.println(myNumber);*/
 
 
 //12
+
+
+//13
 
 
 
