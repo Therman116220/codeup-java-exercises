@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Scanner;
 public class  ConsoleExercises {
 
@@ -23,7 +24,7 @@ public class  ConsoleExercises {
       System.out.println("Here is what you entered:" + integer);
         }}*/
 //2
-
+//display on new line
        Scanner scan = new Scanner(System.in);
        System.out.println("Enter three words: ");
        String string1 = scan.nextLine();
@@ -40,20 +41,36 @@ public class  ConsoleExercises {
 
        Scanner sc = new Scanner(System.in);
        System.out.println("Enter sentence here: ");
-       String sentence = sc.nextLine();
-       System.out.println(sentence);
+       String sentence = sc.next();
+       System.out.println("You entered: " + sentence);
 
 
 
        Scanner scanRoom = new Scanner(System.in);
 
 
+//4
+
+
+
+       Scanner scan2 = new Scanner(System.in);
+       System.out.println("Enter sentence here: ");
+       String sentence = sc.nextLine();
+       System.out.println("You entered: " + sentence);
 
 
 
 
 
 
+
+//1
+
+       Scanner scanRoom = new Scanner(System.in);
+       System.out.println("Enter the length and width of the Class?");
+       int length = scanRoom.nextInt();
+       int width = scanRoom.nextInt();
+       System.out.println((length * 2) + (width * 2));
 
 
 
