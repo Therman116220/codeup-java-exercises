@@ -40,11 +40,12 @@ public class HelloWorld {
 //6                   //should maybe be float
 /*double myNumber = 3.14;
 System.out.println(myNumber);*/
+        //it ran
 //7
 /*myNumber = (double) 123L;*/
 
 //8
-         /*myNumber = 3.14;*/
+         /*myNumber = 123;*/
 
 //9
     //declare # as float
