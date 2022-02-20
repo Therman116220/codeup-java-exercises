@@ -73,6 +73,12 @@ public class  ConsoleExercises {
        System.out.println((length * 2) + (width * 2));
 
 
+//2
+
+       int area = length * width;
+       System.out.println("Area is: " + area);
+
+
 
 
 
