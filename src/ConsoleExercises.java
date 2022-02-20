@@ -1,8 +1,7 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
-public class  ConsoleExercises {
+    public class  ConsoleExercises {
 
-    public static void main(String[] args) {
+        public static void main(String[] args) {
 
 
 
@@ -25,38 +24,38 @@ public class  ConsoleExercises {
         }}*/
 //2
 //display on new line
-       Scanner scan = new Scanner(System.in);
-       System.out.println("Enter three words: ");
-       String string1 = scan.nextLine();
-       String string2 = scan.nextLine();
-       String string3 = scan.nextLine();
+            Scanner scan = new Scanner(System.in);
+            System.out.println("Enter three words: ");
+            String string1 = scan.nextLine();
+            String string2 = scan.nextLine();
+            String string3 = scan.nextLine();
 
-       System.out.println(string1);
-       System.out.println(string2);
-       System.out.println(string3);
-       System.out.printf("%s,%s,%s", string1, string2, string3);
+            System.out.println(string1);
+            System.out.println(string2);
+            System.out.println(string3);
+            System.out.printf("%s,%s,%s", string1, string2, string3);
 
 //3
 
 
-       Scanner sc = new Scanner(System.in);
-       System.out.println("Enter sentence here: ");
-       String sentence = sc.next();
-       System.out.println("You entered: " + sentence);
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Enter sentence here: ");
+            String sentence = sc.next();
+            System.out.println("You entered: " + sentence);
 
 
 
-       Scanner scanRoom = new Scanner(System.in);
+            Scanner scanRoom = new Scanner(System.in);
 
 
 //4
 
 
 
-       Scanner scan2 = new Scanner(System.in);
-       System.out.println("Enter sentence here: ");
-       String sentence = sc.nextLine();
-       System.out.println("You entered: " + sentence);
+            Scanner scan2 = new Scanner(System.in);
+            System.out.println("Enter sentence here: ");
+            String a = sc.nextLine();
+            System.out.println("You entered: " + a);
 
 
 
@@ -66,22 +65,26 @@ public class  ConsoleExercises {
 
 //1
 
-       Scanner scanRoom = new Scanner(System.in);
-       System.out.println("Enter the length and width of the Class?");
-       int length = scanRoom.nextInt();
-       int width = scanRoom.nextInt();
-       System.out.println((length * 2) + (width * 2));
+
+            System.out.println("Enter the length and width of the Class?");
+            int length = scanRoom.nextInt();
+            int width = scanRoom.nextInt();
+            System.out.println((length * 2) + (width * 2));
 
 
 //2
 
-       int area = length * width;
-       System.out.println("Area is: " + area);
+            int area = length * width;
+            System.out.println("Area is: " + area);
 
 
 
 
 
 
+        }
     }
-}
+
+
+
+
