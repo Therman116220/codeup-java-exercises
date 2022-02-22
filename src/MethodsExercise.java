@@ -30,15 +30,22 @@ public class MethodsExercise {
 
     }
 
+    //1D
+    public static int modulus(int x, int y) {
+        return (x % y);
+
+
+    }
 
 
 
-
+//CALLBACKS//
     public static void main(String[] args) {
         addition(10,10);
         subtraction(5,5);
         multiply(2,2);
         divide(100,50);
+        modulus(13,11);
     }
 
 }
