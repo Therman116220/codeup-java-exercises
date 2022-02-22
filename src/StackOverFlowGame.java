@@ -1,3 +1,4 @@
+/*
 
 package TextBasedAdventure;
 
@@ -147,11 +148,13 @@ public class StackOverFlowGame {
         System.exit(0); // terminates if lost
     }
 
-    /**
+    */
+/**
      * @param args
      *            the command line arguments
      * @throws java.lang.InterruptedException
-     */
+     *//*
+
     public static void main(String[] args) throws InterruptedException {
         maxHP = 20;
         potion = 3;
@@ -179,4 +182,4 @@ public class StackOverFlowGame {
         Thread.sleep(5000);
         StartRoom();
     }
-}
+}*/

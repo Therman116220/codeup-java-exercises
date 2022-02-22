@@ -73,11 +73,6 @@ System.out.println(myNumber);*/
 
 
 
-
-
-
-
-
         }
 // javac HelloWorld.java     ---seems to save
 // java HelloWorld           ---seems to populate main method
