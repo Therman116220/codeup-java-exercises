@@ -58,7 +58,7 @@ public class MethodsExercise {
 
     public static void getInteger(int userInput, int max) {
         if (userInput < max) {
-            System.out.println("Thank You!!");
+            System.out.println("Thank You!");
             return;
 
         }

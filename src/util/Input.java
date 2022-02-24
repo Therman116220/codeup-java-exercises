@@ -3,41 +3,48 @@ package util;
 import java.util.Scanner;
 
 public class Input {
- private Scanner scanner = new Scanner(System.in);
+ private final Scanner scanner = new Scanner(System.in);
+
+
+
+
 
  public String getString() {
   System.out.println("Please enter something.");
-  String userResponse = scanner.nextLine();
-  System.out.printf("You have entered: %s", userResponse);
-  return userResponse;
+  String response = scanner.nextLine();
+  System.out.printf("You entered: %s", response);
+  return response;
  }
+
+
+
+
 
  public String getString(String prompt) {
   System.out.println(prompt);
-  String userResponse = scanner.nextLine();
-  System.out.printf("You have entered: %s", userResponse);
-  return userResponse;
- }
+  String response = scanner.nextLine();
+  System.out.printf("You entered: %s", response);
+  return response;
+ };
+
+
+
+
 
  public boolean yesNo() {
-  System.out.println("Would you like to continue?");
-  String userResponse = scanner.next();
-  if (userResponse.equalsIgnoreCase("y") || userResponse.equalsIgnoreCase("yes")) {
-   return true;
-  } else {
-   return false;
-  }
+  System.out.println("Continue?");
+  String response = scanner.next();
+  return response.equalsIgnoreCase("y") || response.equalsIgnoreCase("YES") || response.equalsIgnoreCase("yes");
  }
+
+
+
 
  public boolean yesNo(String prompt) {
   System.out.println(prompt);
-  String userResponse = scanner.next();
-  if (userResponse.equalsIgnoreCase("y") || userResponse.equalsIgnoreCase("yes")) {
-   return true;
-  } else {
-   return false;
-  }
- }
+  String response = scanner.next();
+  return response.equalsIgnoreCase("y") || response.equalsIgnoreCase("yes") || response.equalsIgnoreCase("YES");
+ }}
 
 
 
