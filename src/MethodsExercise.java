@@ -108,7 +108,8 @@ public class MethodsExercise {
 
 //5
 
-
+        /*Scanner scan = new Scanner(System.in);
+       */
             Scanner scan = new Scanner(System.in);
             int count = 0;
             int a = 1 + (int) (Math.random() * 99);
