@@ -1,15 +1,15 @@
-/*
+
 import javax.xml.namespace.QName;
 
 public class Person {
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
 
-    }
+    }*/
 
 
-    private String name;
+    public String name;
     private int age;
-    private static String relationship;
+    public static String relationship;
 
     public Person(name, age, relationship) {
         this.name = name;
@@ -18,25 +18,21 @@ public class Person {
 
     }
 
-    public String getName(String name){
+    public String getName(String name) {
 //TODO: return the person's name
         return name;
     }
 
-    public void setName(String name){
+    public void setName(String name) {
 //TODO: change the name field to the passed value
     }
-    public void sayHello(){
-//TODO: print a message to the console using the person's name
+
+    public void sayHello() {
+        System.out.println();
     }
 
 
-
-
-
-
-*/
-/*    public String firstName;
+    public String firstName;
     public String lastName;
     //Extra examples: More fields toidentify
 
@@ -62,19 +58,20 @@ public class Person {
         System.out.println("Therman.lastName = " + Therman.lastName);
         System.out.println("Therman.age = " + Therman.age);
         System.out.println("Therman.relationship = " + Therman.relationship);
-    // Adding in new line of white space:
+        // Adding in new line of white space:
 
-   Person cody = new Person();
+        Person cody = new Person();
 
-   cody.firstName = "Cody";
-   cody.lastName = "Hodges";
-   cody.age = 32;
-    }*//*
-
-
-}
+        cody.firstName = "Cody";
+        cody.lastName = "Hodges";
+        cody.age = 32;
+    }
+};
 
 
 
 
-*/
+
+
+
+

@@ -61,14 +61,6 @@ System.out.println(myNumber);*/
             System.out.println(++x);
             System.out.println(x);
 
-//11
-
-
-//12
-
-
-//13
-
 
 
 
