@@ -1,10 +1,13 @@
+/*
 
 import javax.xml.namespace.QName;
 
 public class Person {
-   /* public static void main(String[] args) {
+   */
+/* public static void main(String[] args) {
 
-    }*/
+    }*//*
+
 
 
     public String name;
@@ -28,7 +31,7 @@ public class Person {
     }
 
     public void sayHello() {
-        System.out.println();
+        System.out.println("Hello there" + %s);
     }
 
 
@@ -75,3 +78,4 @@ public class Person {
 
 
 
+*/
