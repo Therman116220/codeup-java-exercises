@@ -1,13 +1,18 @@
+
 import java.util.Arrays;
 public class ArraysExercises {
-
+    /*
 
 
     //1
 
 
-   /* int[] numbers = {1, 2, 3, 4, 5};*/
-/*System.out.println(numbers);*/
+   */
+    /* int[] numbers = {1, 2, 3, 4, 5};*//*
+
+     */
+    /*System.out.println(numbers);*//*
+
 
 
     public static void main(String[] args) {
@@ -71,19 +76,19 @@ public class ArraysExercises {
 
         // // // PSEUDOCODE
         // 1. create a method (nums)
-public static int sumAll() {
+//         public static int sumAll() {
 
 
 
 
-        };
+       // };
         // // what's the method signature? --> public static
         // // what data type (if any) is being returned from this method --> int
         //
         // 2. create an array of ints
         // // 2a. What's the length of our array? --> (5)
         // // 2b. Where does this array go? --> in sumAll method
-int[] nums = {1,2,3,4,5};
+//             int[] nums = {1,2,3,4,5};
         // 3. Assign values to the array
         // // how are we going to initialize the arrat of ints?
 
@@ -95,11 +100,11 @@ int[] nums = {1,2,3,4,5};
         // // how do you want to iterate?
         // // // traditional FOR loop
         // // // ** enhanced for
-                int sum = 0;
+            //    int sum = 0;
         // 5. create a variable to store the sum
         // // where does this variable live? --> in sumAll() --> before (outside)
-                for (int n : nums) {
-                    sum += n;
+              //  for (int n : nums) {
+            //        sum += n;
                     // // what's this variable's type (int)
                     // // what's this variable's starting point?
 
@@ -117,41 +122,26 @@ int[] nums = {1,2,3,4,5};
                     // 8. call the method
                     // // where and how do we call the method --> in PSVM
                     // // sout the result of the sumAll method
-                    System.out.println(sumAll());
-                }
-    }
+                  //  System.out.println(sumAll());
+   //             }
+ //   }
+//    }
 
-//1
-
-
-/*    int[] numbers = {1, 2, 3, 4, 5};
-System.out.println(numbers);*/
- //2
-public class Person {
-/* public static void main(String[] args) {
-
-    }*/
+    */
+//-------------------------------------------------------------------------
 
 
-    public String name;
-    private int age;
-    public static String relationship;
 
-    public Person(name, age, relationship) {
-        this.name = name;
-        this.age = age;
-        this.relationship = relationship;
 
-    }
+      static int[] numbers = {1, 2, 3, 4, 5};
+//    static String[] persons = new String[3];
 
-    class listOfPersons {
-        Person[] People = new Person[3];
-    }
 
+
+
+
+
+
+
+//   content here
 }
-
-
-
-}
-
-
