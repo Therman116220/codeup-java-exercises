@@ -2,7 +2,40 @@ package shapes;
 
 import java.awt.*;
 
-public class rectangle {
+public class rectangle extends Quadrilateral {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
     public double length;
     public double width;
 
@@ -40,15 +73,18 @@ public class rectangle {
 
        //Argument//
         rectangle one = new rectangle(2,4);
+*/
 /*        rectangle two = new rectangle(2,4);
         rectangle three = new rectangle(2,4);
-        rectangle four = new rectangle(2,4);*/
+        rectangle four = new rectangle(2,4);*//*
+
         System.out.println(one);
     }
 
 
 
 
+*/
 
 
 
