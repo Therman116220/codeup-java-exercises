@@ -1,6 +1,6 @@
 package shapes;
 
-public class Quadrilateral {
+abstract class Quadrilateral {
 
 
 
