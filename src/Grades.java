@@ -1,14 +1,16 @@
 // import javax.xml.namespace.QName;
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Scanner;
 
 import java.util.Scanner;
 
 public class Grades {
     public static void main(String[] args) {
-     /*   System.out.println("My name is " + Student.name);
+        System.out.println("My name is " + Student.name);
         System.out.println("My grade is : " + Student.grade);
         System.out.println("My age is: " + Student.age);
-        System.out.println("I'm feeling pretty " + Student.feeling);*/
+        System.out.println("I'm feeling pretty " + Student.feeling);
 
 
         Scanner scan = new Scanner(System.in);
@@ -42,26 +44,30 @@ public class Grades {
         // returns the students age ❌
         // public int getAge ();
 
-        public static int feeling;
-        // returns the students feeling (Similar to the army stress card) ❌
+        public static String feeling;
+        // returns the students feeling ❌
         // public int feeling ();
 
-       /* public Student(name, grade, age, feeling) {
+        public Student( String name, int grade, int age, String feeling) {
             this.name = name;
             this.grade = grade;
             this.age = age;
             this.feeling = feeling;
-        }*/
+        }
 
 
         //---------------------------------------------------------------------------------------------------------//
+        public static void main(String[] args) {
+            Student Prada = new Student("Prada",92,24,"saucy");
+            System.out.println("Prada.name = " + name);
+            Student James = new Student("James",45,12,"cool");
 
-        Student cody = new Student;
+        }
 
-        cody.name = "Cody";
-        cody.grade = "Hodges";
-        cody.age = 32;
-        cody.feeling = "soft"
+
+
+
+
 
 
 
