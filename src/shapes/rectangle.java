@@ -1,3 +1,4 @@
+/*
 package shapes;
 
 import java.awt.*;
@@ -6,8 +7,10 @@ public class rectangle extends Quadrilateral {
     public double length;
     public double width;
 
-  /*  public rectangle(double sidesOfRectangle, int i) {
-    }*/
+  */
+/*  public rectangle(double sidesOfRectangle, int i) {
+    }*//*
+
 
     public double rectangle(double sides) {
         this.length = length;
@@ -40,9 +43,11 @@ public class rectangle extends Quadrilateral {
 
        //Argument//
         rectangle one = new rectangle();
+*/
 /*        rectangle two = new rectangle(2,4);
         rectangle three = new rectangle(2,4);
-        rectangle four = new rectangle(2,4);*/
+        rectangle four = new rectangle(2,4);*//*
+
         System.out.println(one);
     }
 
@@ -59,3 +64,4 @@ public class rectangle extends Quadrilateral {
 
 
 
+*/

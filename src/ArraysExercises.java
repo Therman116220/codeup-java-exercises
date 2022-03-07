@@ -7,18 +7,20 @@ public class ArraysExercises {
               {4, 5, 6},
               {7, 8, 9}
       };
+//uncomment me and fix🚨
+ /*     for (int[] row : matrix) {
 
-for (int[] row : matrix)
+      }*/
 
 
       {
             System.out.println("+---+---+---+");
 
             System.out.print("| ");
-
-            for (int n : row) {
+//uncomment me and fix🚨
+           /* for (int n : row) {
                   System.out.print(n + " | ");
-            }
+            }*/
 
             System.out.println();
       }

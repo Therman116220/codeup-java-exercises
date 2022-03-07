@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 public class Grades {
     public static void main(String[] args) {
-        System.out.println("My name is " + Student.name);
+     /*   System.out.println("My name is " + Student.name);
         System.out.println("My grade is : " + Student.grade);
         System.out.println("My age is: " + Student.age);
-        System.out.println("I'm feeling pretty " + Student.feeling);
+        System.out.println("I'm feeling pretty " + Student.feeling);*/
 
 
         Scanner scan = new Scanner(System.in);
@@ -26,7 +26,7 @@ public class Grades {
 
 
 
-    public static class Student {
+    public static class Student  {
 
         public static String name;
 
@@ -56,7 +56,12 @@ public class Grades {
 
         //---------------------------------------------------------------------------------------------------------//
 
+        Student cody = new Student;
 
+        cody.name = "Cody";
+        cody.grade = "Hodges";
+        cody.age = 32;
+        cody.feeling = "soft"
 
 
 
