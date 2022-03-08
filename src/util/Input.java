@@ -6,29 +6,12 @@ public class Input {
  private final Scanner scanner = new Scanner(System.in);
 
 
-
-
-
  public String getString() {
   System.out.println("Please enter something.");
   String response = scanner.nextLine();
   System.out.printf("You entered: %s", response);
   return response;
  }
-
-
-
-
-
- public String getString(String prompt) {
-  System.out.println(prompt);
-  String response = scanner.nextLine();
-  System.out.printf("You entered: %s", response);
-  return response;
- };
-
-
-
 
 
  public boolean yesNo() {
@@ -38,13 +21,29 @@ public class Input {
  }
 
 
+ public int getInt(int min, int max) {
+  int numInput;
+  do {
+   System.out.println("Please enter a integer ranging between 1 and 5");
+   numInput = scanner.nextInt();
+  } while (numInput < min || numInput > max);
+  System.out.println("good choice!");
+  return numInput;
+
+ }
+
+ public int getInt() {
+  try {
+   return Integer.parseInt(getString());
+  } catch (Exception e) {
+   System.out.println("Please enter an number.");
+   return getInt();
+  }
+ }
+}
 
 
- public boolean yesNo(String prompt) {
-  System.out.println(prompt);
-  String response = scanner.next();
-  return response.equalsIgnoreCase("y") || response.equalsIgnoreCase("yes") || response.equalsIgnoreCase("YES");
- }}
+
 
 
 
