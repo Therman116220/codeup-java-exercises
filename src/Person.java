@@ -3,6 +3,8 @@
 import javax.xml.namespace.QName;
 
 public class Person {
+    public Person(String jane) {
+    }
 
 /* public static void main(String[] args) {
 

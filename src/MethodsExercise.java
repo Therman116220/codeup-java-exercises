@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Scanner;
 import java.util.Random;
 import java.lang.Math;
@@ -26,7 +28,6 @@ public class MethodsExercise {
 
 
     }
-
     //4
     public static int divide(int x, int y) {
         return (x / y);

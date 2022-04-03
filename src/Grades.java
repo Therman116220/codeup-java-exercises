@@ -14,13 +14,13 @@ public class Grades {
 
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter your name: ");
+        System.out.println("Enter your name please: ");
         String inputName = scan.nextLine();
-        System.out.println("Enter your Age: ");
+        System.out.println("Enter your age please: ");
         String inputAge = scan.nextLine();
         System.out.println("Enter your Grade: ");
         String inputGrade = scan.nextLine();
-        System.out.println("Enter your Feeling: ");
+        System.out.println("Enter your Feelings on the course: ");
         String inputFeelings = scan.nextLine();
 
     }
