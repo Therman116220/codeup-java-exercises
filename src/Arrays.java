@@ -1,5 +1,17 @@
 import java.util.Arrays;
 
+public class Arrays {
+
+
+public static void main(String[]args){
+
+        }
+
+
+
+
+
+}
 
 /*Arrays Post course  Notes*/
 /*
@@ -36,15 +48,3 @@ import java.util.Arrays;
 
 
 
-public class Arrays {
-
-   public static Address[] addContact(Address [] contactArr, Address contact) {
-
-       int newArr = nameOfContact = new Contact [newArr];
-       for(int i = 0; i < newArr; i++) {
-           System.out.println(nameOfContact[i]);
-       }
-       return nameOfContact
-   }
-
-        }
