@@ -1,3 +1,4 @@
+/*
 
 
 import javax.xml.namespace.QName;
@@ -6,15 +7,15 @@ public class Person {
     public Person(String jane) {
     }
 
+*/
 /* public static void main(String[] args) {
 
     }*//*
 
 
-
     public String name;
-    private int age;
-    public static String relationship;
+    private Integer age;
+    public  String relationship;
 
     public Person(name, age, relationship) {
         this.name = name;
@@ -65,14 +66,12 @@ public class Person {
         System.out.println("Therman.relationship = " + Therman.relationship);
         // Adding in new line of white space:
 
-        Person cody = new Person();
-
-        cody.firstName = "Cody";
-        cody.lastName = "Hodges";
-        cody.age = 32;
+        Person mike = new Person();
+        mike.firstName = "Mike";
+        mike.lastName = "Horton";
+        mike.age = 66;
     }
-};
+}
+
 
 */
-
-}
