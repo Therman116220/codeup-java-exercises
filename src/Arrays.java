@@ -5,7 +5,18 @@ public class Arrays {
 
 public static void main(String[]args){
 
-        }
+
+    int value = 7;  /*Point THIS reference*/
+
+    int[] values;
+    values = new int[3];
+
+
+    System.out.println(values[0]);
+    System.out.println(values[2]);
+    System.out.println(values[3]);
+
+}
 
 
 
