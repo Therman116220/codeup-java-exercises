@@ -1,7 +1,47 @@
-/*
+
 import java.util.Arrays;
 
 public class ArraysExercises {
+
+
+        /*1*/
+        public void log(int[] numbers) {
+            // O(n)
+            for (int i = 0; i < numbers.length; i++) {
+                System.out.println(numbers[i]);
+            }
+        }
+
+    /*2*/
+    public void guitar(int[] a) {
+
+        for(int i = 0; i < a.length; i++) {
+            System.out.println([i]);
+        }
+    }
+
+    /*3*/
+
+
+    public void exampleThree(int[] one) {
+        for (i = 0; i < one.length; i++) {
+            System.out.println("Increment" + [i]);
+        }
+    }
+
+
+    /*4*/
+
+    public void exampleFour(double[] one) {
+        for(i = 0; i < one.length; i++) {
+            System.out.println([i]);
+        }
+    }
+
+
+
+
+    /*
     //Create a static method named addPerson. It should accept an array of Person objects, as well as a single person object to add to the passed array. It should return an array whose length is 1 greater than the passed array, with the passed person object at the end of the array.
 
     //1. create static method named addPerson . public static Person[] addPerson(){}
@@ -47,3 +87,4 @@ public class ArraysExercises {
 
     }
 }*/
+        }

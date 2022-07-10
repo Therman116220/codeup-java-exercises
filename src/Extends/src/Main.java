@@ -7,5 +7,6 @@ public class Main {
        Students One = new Students("Joe",90, 100, true);
        Students Two = new Students("Kim", 79, 72, true);
        Students Three = new Students("Mathew", 93,50,false);
+
     }
 }

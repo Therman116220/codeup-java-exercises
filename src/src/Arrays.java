@@ -1,4 +1,3 @@
-/*
 import java.util.Arrays;
 
 public class Arrays {
@@ -7,8 +6,8 @@ public class Arrays {
 public static void main(String[]args){
 
 
-    int value = 7;  */
-/*Point THIS reference*//*
+    int value = 7;
+Point THIS reference
 
 
     int[] values;
@@ -27,43 +26,35 @@ public static void main(String[]args){
 
 }
 
-*/
-/*Arrays Post course  Notes*//*
+Arrays Post course  Notes
 
-*/
-/*
 * Arrays are great for code reduction
 * Arrays are a bunch of variables smashed together essentually
 * Fun Reference- Like a address book, that starts w/  "0"
 *MUST DEFINE SIZE - If size will be consistant, and will not change during run-time.
 *
-**//*
+*
 
 
 
 
 
 
-*/
-/*Bounds of Array*//*
+Bounds of Array
 
-*/
-/*Bounds are the size*//*
+Bounds are the size
 
-*/
-/*Out of bounds is requestig data from out of index of the array (ex. Asking for 11 with a bounds of 0-10)
+Out of bounds is requestig data from out of index of the array (ex. Asking for 11 with a bounds of 0-10)
 *Zero-base index system: Begin indexing at position Zero
-*  *//*
+*
 
 
 
-*/
-/*    ArrayList  *//*
+    ArrayList
 
-*/
-/*NO NEED to define size
+NO NEED to define size
 * Arraylist is great for less
-* *//*
+*
 
 
 
@@ -71,11 +62,9 @@ public static void main(String[]args){
 
 
 
-*/
-/*Multi-dimentional Arrays*//*
+Multi-dimentional Arrays
 
 
 
 
 
-*/

@@ -23,6 +23,11 @@ public class Grades {
         System.out.println("Enter your Feelings on the course: ");
         String inputFeelings = scan.nextLine();
 
+
+        Student Prada = new Student("Prada", 92, 24, "saucy");
+        Student James = new Student("James", 45, 12, "cool");
+
+
     }
 
 
@@ -57,10 +62,7 @@ public class Grades {
 
 
         //---------------------------------------------------------------------------------------------------------//
-        public static void main(String[] args) {
-            Student Prada = new Student("Prada",92,24,"saucy");
-            System.out.println("Prada.name = " + name);
-            Student James = new Student("James",45,12,"cool");
+
 
         }
 
@@ -73,4 +75,3 @@ public class Grades {
 
 
     }
-}

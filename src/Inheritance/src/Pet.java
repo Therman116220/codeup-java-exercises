@@ -1,5 +1,3 @@
-import java.io.Console;
-
 public class Pet {
     /*Properties*/
 
@@ -41,12 +39,12 @@ public class Pet {
 
     /*Sleep*/
 
-    public  boolean Sleeping() {
+    public void Sleeping() {
         if (sleeping) {
             System.out.println("zzZZZ");
         } else {
 
-        } return  false;
+        }
     }
     /*----------------------*/
 
