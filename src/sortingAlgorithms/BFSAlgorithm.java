@@ -13,23 +13,23 @@ package sortingAlgorithms;
   */
 
 import com.sun.source.tree.Tree;
-import com.sun.source.tree.TreeVisitor;
 
 public class BFSAlgorithm {
 
     public static void main(String[] args) {
-        Tree root = new Tree() {
-            @Override
-            public Kind getKind() {
-                return null;
-            }
+        Tree root = new Tree(10);
+        Tree newChild = root.addChild(5); //roots first child
+        root.addChold(7);
+        root.addChild(15);
+        Tree newChildChild = newChild.addChild(80);
+        Tree newChildChildChild = newChildChild.addChild(192);
 
-            @Override
-            public <R, D> R accept(TreeVisitor<R, D> visitor, D data) {
-                return null;
-            }
-        };
+        Tree foundNode = search(192,root); //BFS Search
 
-
+        if(foundNode != null) {
+            System.out.println(foundNode.getValue());
+        } else {
+            System.out.println("Nothing found here!");
+        }
     }
 }
