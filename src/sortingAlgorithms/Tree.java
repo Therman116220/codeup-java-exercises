@@ -32,13 +32,11 @@ public class Tree {
         return child;
     }
 
-
-
-
-
-
-
-
+public  Tree addChild(int value) {
+        Tree newChild = new Tree(value);
+        child.add(newChild);
+        return newChild;
+}
 
 
 
