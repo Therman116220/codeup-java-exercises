@@ -22,8 +22,13 @@ public class QuickSort {
     public static void quickSort(int[] array) {
         quickSortBase(array,0,array.length - 1);
     }
-    /*Here we set the Base Case(needs no sorting) for the Sorting Algorithm*/
+    /*Here we set the Base Case(needs no sorting) for the Sorting Algorithm using an if/then Statement
+    * FUN Fact- if/then statements are called "Control Flow Statements"*/
     public static void quickSortBase(int[] array, int begin, int end) {
+    if ( begin >= end) {
+        return;
+    }
+    /*Pivot*/
 
     }
 
