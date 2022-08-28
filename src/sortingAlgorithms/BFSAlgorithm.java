@@ -21,12 +21,17 @@ public class BFSAlgorithm {
 
 
 
-/*
+/*  BFS USES QUEUE
 * Explore nodes and edges of graph.Often a building block in other algorithms.
 * Time Commplexity- O(V+E)
-* Basic Use- Finding 'shortest path on unweighted graphs.
+* Basic Use- Finding 'shortest path on unweighted graphs'.
 *
-*
+*How is BFS different from a DFS(Depth-First-Search)? A:How it explores the graph.
+* BFS starts at a node in graph & explores its neighbor nodes
+* As we explore all of 'i or nodes' neighbors, we should add them to the queue
+* transition 'levels/layers'. and add all new neighor nodes/i to queue
+* if we move on to a 'i' that has already been added to queue, skip it
+* CONTINUES process until nodes are all cleared
 * */
 
 
