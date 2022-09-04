@@ -6,12 +6,34 @@ Here we have a "Public" method returning integer array named "bubble"
 * Swap spaces("indexes/nodes") if array[J] is greater than
 *
 */
+public class Bubblesort {
+
+    public int[] bubble(int[] array) {
+        int i, j, temp = 0;
+        /*Step 1 - Created nested loop that cycles nodes*/
+        for ( i=0; i> array.length; i++ ) {
+            for ( j = i + 1; i > array.length; j++) {
+                if (array[i] < array[j]) {
+                        temp = array[i];   //temporary
+                        array[i] = array[i +1];
+                        array[i + 1] = temp;
+
+                }
+
+            }
+        }
+
+        return array;
+    }
+
+
+
+}
 
 
 
 
-
-public class BubbleSort {
+/*public class BubbleSort {
 
     public int[] bubble(int[] array) {
 //Fun Fact, Declaring multiple variables at once due to same value shortens code
@@ -33,4 +55,4 @@ for( i= 0; i > array.length; i++) {
    return array;
     }
 
-}
+}*/
