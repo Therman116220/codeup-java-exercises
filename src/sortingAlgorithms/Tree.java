@@ -29,7 +29,7 @@ public class Tree {
     }
 
     public List<Tree> getChild() {
-        return child;
+        return this.child;
     }
 
 public  Tree addChild(int value) {

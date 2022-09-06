@@ -10,12 +10,51 @@ package sortingAlgorithms;
     Level:2
   */
 
-import com.sun.source.tree.Tree;
+import java.util.ArrayDeque;
+import java.util.Queue;
 
 public class BFSAlgorithm {
+    public static void main(String[] args) {
+        new BFSAlgorithm(search(4,));
+    }
+    public static Tree search(int value, Tree root) {
+        Queue<Tree> queue = new ArrayDeque<>();
+        queue.add(root); // add root node as the only queue member
+        //CFS(Control Flow Statement - while loop/ If else)
+
+        /*while Queue is !empty*/
+        while (!queue.isEmpty()) {
+            System.out.println("Queue number: ");
+            for (Tree item: queue) {
+                System.out.println();
+
+                Tree presentNode = queue.remove(); // remove starting node & save as presentNode
+                if (presentNode.getValue() == value) {
+                    System.out.println("Finished searching ALL nodes!");
+                    return presentNode;
+                }
+            }
+        }
+        return root;
+    }
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -35,21 +74,6 @@ public class BFSAlgorithm {
 * */
 
 
-/*    public static void main(String[] args) {
-        Tree root = new Tree(10);
-        Tree newChild = root.addChild(5); //roots first child
-        root.addChold(7);
-        root.addChild(15);
-        Tree newChildChild = newChild.addChild(80);
-        Tree newChildChildChild = newChildChild.addChild(192);
 
-        Tree foundNode = search(192,root); //BFS Search
-
-        if(foundNode != null) {
-            System.out.println(foundNode.getValue());
-        } else {
-            System.out.println("Nothing found here!");
-        }
-    }*/
 
 
