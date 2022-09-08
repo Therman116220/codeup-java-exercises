@@ -1,10 +1,13 @@
 
 import java.util.Arrays;
 
+/*
 public class ArraysExercises {
 
 
-        /*1*/
+        */
+/*1*//*
+
         public void log(int[] numbers) {
             // O(n)
             for (int i = 0; i < numbers.length; i++) {
@@ -12,7 +15,9 @@ public class ArraysExercises {
             }
         }
 
-    /*2*/
+    */
+/*2*//*
+
     public void guitar(int[] a) {
 
         for(int i = 0; i < a.length; i++) {
@@ -20,7 +25,9 @@ public class ArraysExercises {
         }
     }
 
-    /*3*/
+    */
+/*3*//*
+
 
 
     public void exampleThree(int[] one) {
@@ -30,7 +37,9 @@ public class ArraysExercises {
     }
 
 
-    /*4*/
+    */
+/*4*//*
+
 
     public void exampleFour(double[] one) {
         for(i = 0; i < one.length; i++) {
@@ -38,6 +47,7 @@ public class ArraysExercises {
         }
     }
 
+*/
 
 
 
@@ -86,5 +96,5 @@ public class ArraysExercises {
 
 
     }
-}*/
-        }
+}
+        }*/

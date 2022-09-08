@@ -1,5 +1,7 @@
+package src;
+
 public class Notes {
-    Boolean energy = true;
+   /* Boolean energy = true;
 
     Boolean health = true;
 
@@ -28,7 +30,7 @@ n.en
     }
 
 
-
+*/
 }
  /*Person Class*/
 /*

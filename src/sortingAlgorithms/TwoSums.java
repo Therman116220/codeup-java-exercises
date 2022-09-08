@@ -3,6 +3,11 @@ package sortingAlgorithms;
 
 
 class TwoSums {
+
+
+/*6*/
+
+
 /*5*/
 public int[] twoSums(int[] nums, int target) {
     for (int i = 0; i<nums.length; i++) {

@@ -8,10 +8,10 @@ abstract class Food {
     double tastyScore;
 
 
-    abstract void  getMacroNutrients {
+  /*  abstract void  getMacroNutrients{
 
 
-    }
+    }*/
 
 
     class Egg extends Food {
