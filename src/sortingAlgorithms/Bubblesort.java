@@ -11,8 +11,8 @@ public class Bubblesort {
     public int[] bubble(int[] array) {
         int i, j, temp = 0;
         /*Step 1 - Created nested loop that cycles nodes*/
-        for ( i=0; i> array.length; i++ ) {
-            for ( j = i + 1; i > array.length; j++) {
+        for ( i=0; i<= array.length; i++ ) {
+            for ( j = i + 1; i < array.length; j++) {
                 if (array[i] < array[j]) {
                         temp = array[i];   //temporary
                         array[i] = array[i +1];
