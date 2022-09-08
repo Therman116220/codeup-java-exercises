@@ -15,7 +15,7 @@ import java.util.Queue;
 
 public class BFSAlgorithm {
     public static void main(String[] args) {
-        new BFSAlgorithm(search(4,));
+       /* new BFSAlgorithm(search(4,));*/
     }
     public static Tree search(int value, Tree root) {
         Queue<Tree> queue = new ArrayDeque<>();
