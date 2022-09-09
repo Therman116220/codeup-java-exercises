@@ -6,10 +6,21 @@ class TwoSums {
 
 
 /*6*/
-
+public int[] twoSums(int[] nums, int target) {
+    for (int i = 0;i<nums.length;i++) {
+        for (int j = i + 1; j<nums.length;j++) {
+        int k = target - nums[i];
+        if(k == nums[j]) {
+            System.out.println();
+           return new int[] {i,j};
+        }
+        }
+    }
+    return nums;
+}
 
 /*5*/
-public int[] twoSums(int[] nums, int target) {
+/*public int[] twoSums(int[] nums, int target) {
     for (int i = 0; i<nums.length; i++) {
         for(int j = i + 1; j<nums.length; j++) {
             int k = target - nums[i];
@@ -20,7 +31,7 @@ public int[] twoSums(int[] nums, int target) {
         }
     }
     return nums;
-}
+}*/
 }
 
 
