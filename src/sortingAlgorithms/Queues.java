@@ -8,22 +8,38 @@ public class Queues {
     public static void main(String[] args) {
 
 
+        Queue<Integer> nums = new LinkedList<>();
 
-   Queue<String> dogWalker = new LinkedList<String>();
+
+        nums.add(7);
+        nums.add(4);
+        nums.add(12);
+        nums.add(74);
+
+        System.out.println(nums.size());
+        System.out.println(nums.peek());
+        System.out.println(nums.poll());
+        System.out.println(nums.contains(7));
+
+
+
+
+
+        /* Queue<String> dogWalker = new LinkedList<String>();
    dogWalker.add("Zeus");
    dogWalker.add("Spot");
    dogWalker.add("Milly");
    dogWalker.add("Slate");
    dogWalker.add("Elli");
-        /*How many dogs I have to walk*/   //5
+        *//*How many dogs I have to walk*//*   //5
         System.out.println(dogWalker.size());
-        /*Is your pet still here? Name Look-up   */
+        *//*Is your pet still here? Name Look-up   *//*
         System.out.println(dogWalker.contains("Spot"));
 
-        /*Find by position in queue*/
+        *//*Find by position in queue*//*
         // 1st on queue
         System.out.println(dogWalker.toArray()[0]);
-        //Last in queue
+        //Last in queue*/
 
 
 
