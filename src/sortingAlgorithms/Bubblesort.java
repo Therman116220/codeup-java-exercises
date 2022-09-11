@@ -1,4 +1,5 @@
 package sortingAlgorithms;
+
 /*
 Here we have a "Public" method returning integer array named "bubble"
 * CREATE variables in method. (i,j,temp)
@@ -7,8 +8,8 @@ Here we have a "Public" method returning integer array named "bubble"
 *
 */
 public class Bubblesort {
+    public static int[] main(int[] array) {
 
-    public int[] bubble(int[] array) {
         int i, j, temp = 0;
         /*Step 1 - Created nested loop that cycles nodes*/
         for ( i=0; i<= array.length; i++ ) {
@@ -17,6 +18,8 @@ public class Bubblesort {
                         temp = array[i];   //temporary
                         array[i] = array[i +1];
                         array[i + 1] = temp;
+                    System.out.println();
+                    return new int[] {i,j};
 
                 }
 
@@ -26,9 +29,9 @@ public class Bubblesort {
         return array;
     }
 
-
-
 }
+
+
 
 
 
