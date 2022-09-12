@@ -8,6 +8,8 @@ Here we have a "Public" method returning integer array named "bubble"
 *
 */
 public class Bubblesort {
+
+
     public static int[] main(int[] array) {
 
         int i, j, temp = 0;
@@ -27,6 +29,7 @@ public class Bubblesort {
         }
 
         return array;
+
     }
 
 }
