@@ -3,7 +3,24 @@ package sortingAlgorithms;
 
 class  Arrays {
 
+/*2*/
     public static void main(String[] args) {
+        String[] movies = new  String[8];
+
+        movies[0] = "Bicentennial Man";
+        movies[1] = "I-Robot";
+        movies[2] = "The Internship";
+        movies[3] = "Remember the Titans";
+        movies[4] = "Inception";
+        movies[5] = "In Time";
+        movies[6] = "Creed";
+        movies[7] = "Edge Of Tomorrow";
+    }
+
+
+
+    /*1*/
+   /* public static void main(String[] args) {
         int[] nums = new int[7];
 
         nums[0] = 74;
@@ -29,7 +46,7 @@ class  Arrays {
 
 
     }
-
+*/
 
 
 
