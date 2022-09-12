@@ -12,7 +12,7 @@ class  Arrays {
         movies[2] = "The Internship";
         movies[3] = "Remember the Titans";
         movies[4] = "Inception";
-        movies[5] = "In Time";
+        movies[5] = "In Time"; //Error
         movies[6] = "Creed";
         movies[7] = "Edge Of Tomorrow";
 
@@ -33,15 +33,18 @@ class  Arrays {
             }  else if (movies[i] == movies[4]) {
                 index = i;
                 System.out.println("Your Thursday movie is: " +  movies[i]);
+            }else if (movies[i] == movies[5]) {
+                index = i;
+                System.out.println("** Your alternate movie of the week is: " +  movies[i] +" **");
             }  else if (movies[i] == movies[6]) {
                 index = i;
                 System.out.println("Your Friday movie is: " +  movies[i]);
             }  else if (movies[i] == movies[7]) {
                 index = i;
                 System.out.println("Your Saturday movie is: " +  movies[i]);
-            }   else {
+            }  /* else {
                 System.out.println("Uh-Oh, Something Went Wrong");
-            }
+            }*/  // adds
 
         }
     }
