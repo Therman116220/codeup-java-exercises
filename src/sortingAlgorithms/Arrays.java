@@ -3,7 +3,7 @@ package sortingAlgorithms;
 
 class  Arrays {
 
-/*2*/
+/*2*/   //Definition of a brute-force solution
     public static void main(String[] args) {
         String[] movies = new  String[8];
 
@@ -15,6 +15,35 @@ class  Arrays {
         movies[5] = "In Time";
         movies[6] = "Creed";
         movies[7] = "Edge Of Tomorrow";
+
+        int index = -1;
+        for (int i = 0;i<movies.length;i++) {
+            if (movies[i] == movies[0]) {
+                index = i;
+                System.out.println("Your Sunday movie is: " +  movies[i]);
+            } else if (movies[i] == movies[1]) {
+                index = i;
+                System.out.println("Your Monday movie is: " +  movies[i]);
+            }  else if (movies[i] == movies[2]) {
+                index = i;
+                System.out.println("Your Tuesday movie is: " +  movies[i]);
+            }  else if (movies[i] == movies[3]) {
+                index = i;
+                System.out.println("Your Wednesday movie is: " +  movies[i]);
+            }  else if (movies[i] == movies[4]) {
+                index = i;
+                System.out.println("Your Thursday movie is: " +  movies[i]);
+            }  else if (movies[i] == movies[6]) {
+                index = i;
+                System.out.println("Your Friday movie is: " +  movies[i]);
+            }  else if (movies[i] == movies[7]) {
+                index = i;
+                System.out.println("Your Saturday movie is: " +  movies[i]);
+            }   else {
+                System.out.println("Uh-Oh, Something Went Wrong");
+            }
+
+        }
     }
 
 
