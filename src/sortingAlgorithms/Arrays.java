@@ -2,8 +2,31 @@ package sortingAlgorithms;
 
 
 class  Arrays {
+    /*3*/
+    public static void main(String[] args) {
+        String r = reverse("0123456789");
+        System.out.println(r);
+
+    }
+
+    public static String reverse(String str) {
+        char[] node = new char[str.length()];
+
+        int nodeIndex = 0;
+        for (int i = str.length() - 1; i >= 0; i--) {
+            node[nodeIndex] = str.charAt(i);
+            nodeIndex++;
+        }
+        String reverseContent = "";
+        for (int i = 0; i < str.length(); i++) {
+            reverseContent = reverseContent + node[i];
+        }
+        return  reverseContent;
+
+    }
 
 /*2*/   //Definition of a brute-force solution
+/*
     public static void main(String[] args) {
         String[] movies = new  String[8];
 
@@ -42,12 +65,15 @@ class  Arrays {
             }  else if (movies[i] == movies[7]) {
                 index = i;
                 System.out.println("Your Saturday movie is: " +  movies[i]);
-            }  /* else {
+            }  */
+/* else {
                 System.out.println("Uh-Oh, Something Went Wrong");
-            }*/  // adds
+            }*//*
+  // adds
 
         }
     }
+*/
 
 
 
