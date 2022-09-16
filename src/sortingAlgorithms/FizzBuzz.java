@@ -2,24 +2,37 @@ package sortingAlgorithms;
 
 
 
+//  is divisible by both 3 & 5?
+//  is divisible by 3?
+//  is divisible by 5?
+
+
 class FizzBuzz {
 
-    public static void main(String[] args) {
-    fizzBuzz(7);
-}
-    public static String fizzBuzz(int n) {
-        if (n % 3 == 0) {
-            if (n % 5 == 0) {
-                return "fizzbuzz";
-            } else {
-                           return "fizz";
-            }
-            } else if (n % 5 == 0) {
-                return "buzz";
-            }
+    /*3*/public static void main(String[] args) {
+        int nums = 15;
 
-            return String.valueOf(n);
+
+        for (int i=1; i<=nums; i++) {
+            /*is divisible by both 3 & 5*/
+            if (i%5==0 || i%3==0) {
+                System.out.println("FizzBuzz");
+            } else if (i%3==0) {
+                System.out.println("Fizz");
+            } else if (i%5==0) {
+                System.out.println("Buzz");
+            } else
+                System.out.println(i);
         }
+    }
+
 
 
     }
+
+
+
+
+
+
+
