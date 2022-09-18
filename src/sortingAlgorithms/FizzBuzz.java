@@ -1,10 +1,9 @@
 package sortingAlgorithms;
 
 
-
-//  is divisible by both 3 & 5?
-//  is divisible by 3?
-//  is divisible by 5?
+// Using Short Circuit Operator's we should "evaluate" if  our "int" divisible by both 3 & 5?
+//  is nums divisible by 3?
+//  is nums divisible by 5?
 
 
 class FizzBuzz {
@@ -12,7 +11,7 @@ class FizzBuzz {
     /*3*/public static void main(String[] args) {
         int nums = 15;
 
-
+/*SCO Evaluation*/
         for (int i=1; i<=nums; i++) {
             /*is divisible by both 3 & 5*/
             if (i%5==0 && i%3==0) {
