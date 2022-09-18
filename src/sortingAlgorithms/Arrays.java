@@ -2,8 +2,33 @@ package sortingAlgorithms;
 
 
 class  Arrays {
-    /*3*/
+
+
+ /*4*/
+
     public static void main(String[] args) {
+        String rev = reverse("Evol");
+        System.out.println(rev);
+    }
+
+    public static String reverse(String str) {
+        char[] nodes = new char[str.length()];
+
+        int nodeIndex = 0;
+        for (int i = str.length() - 1; i >= 0; i--) {
+            nodes[nodeIndex] = str.charAt(i);
+            nodeIndex++;
+        }
+        String reverseContent = "";
+        for (int i = 0;i < str.length();i++) {
+            reverseContent = reverseContent + nodes[i];
+        }
+        return reverseContent;
+    }
+
+    /*3*/
+
+  /*  public static void main(String[] args) {
         String r = reverse("0123456789");
         System.out.println(r);
 
@@ -23,7 +48,7 @@ class  Arrays {
         }
         return  reverseContent;
 
-    }
+    }*/
 
 /*2*/   //Definition of a brute-force solution
 /*

@@ -3,7 +3,9 @@ package sortingAlgorithms;
 
 
 class TwoSums {
+    public static void main(String[] args) {
 
+    }
 
 /*6*/
 public int[] twoSums(int[] nums, int target) {
@@ -17,6 +19,7 @@ public int[] twoSums(int[] nums, int target) {
         }
     }
     return nums;
+
 }
 
 /*5*/
