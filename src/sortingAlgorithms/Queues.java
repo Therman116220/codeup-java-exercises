@@ -22,8 +22,10 @@ public class Queues {
       /*10*/names.add("Marley");
 
 
-        System.out.println(names.contains("Marley"));
-
+    System.out.println(names.contains("Marley")); // True, there is a item in-queue named Marley
+        /*    names.removeIf(names[0]===names[1]);*/
+        names.size();
+        names.remove(args[0]);
 
 
 
