@@ -1,8 +1,6 @@
 package src;
 
-public class Mains {
-    public static void main(String[] args) {
-
+public class VendingMa´¶¶¶ {
 
 
 

@@ -1,5 +1,5 @@
-
-     /*PNR*/
+package src;
+/*PNR*/
     /*5 Character Pass*/
     /*T is dropped if it is the first letter*/
 import java.util.Random;
