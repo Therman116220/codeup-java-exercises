@@ -8,12 +8,42 @@ package sortingAlgorithms;
 
 class FizzBuzz {
 
-    /*3*/public static void main(String[] args) {
+    public static void main(String[] args) {
+
         int nums = 15;
 
-/*SCO Evaluation*/
+
         for (int i=1; i<=nums; i++) {
-            /*is divisible by both 3 & 5*/
+
+            if (i % 5 == 0 && i % 3 == 0) {
+                System.out.println("fizzbuzz");
+            } else if (i % 3 == 0) {
+                System.out.println("fizz");
+            } else if (i % 5 == 0) {
+                System.out.println("buzz");
+            } else
+                System.out.println(i);
+        }
+    }
+
+
+
+
+
+
+    /*
+    */
+/*1*//*
+public static void main(String[] args) {
+        int nums = 15;
+
+*/
+/*SCO Evaluation*//*
+
+        for (int i=1; i<=nums; i++) {
+            */
+/*is divisible by both 3 & 5*//*
+
             if (i%5==0 && i%3==0) {
                 System.out.println("FizzBuzz");
             } else if (i%3==0) {
@@ -24,6 +54,7 @@ class FizzBuzz {
                 System.out.println(i);
         }
     }
+*/
 
 
 
