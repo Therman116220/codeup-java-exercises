@@ -17,6 +17,7 @@ public class QuickSort {
         int[] arr = {1,9,12,4,5};
         quickSort(arr);
         System.out.println(Arrays.toString(arr));
+
     }
     /*Here we actually define the algorithm as recursive & Sort it*/
     public static void quickSort(int[] array) {
@@ -27,6 +28,7 @@ public class QuickSort {
     public static void quickSortBase(int[] array, int begin, int end) {
     if ( begin >= end) {
         return;
+        System.out.println(quickSort(array[]));
     }
     /*Pivot*/
     int pivot = begin;
