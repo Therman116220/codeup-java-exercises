@@ -4,10 +4,13 @@ package sortingAlgorithms;
 class  Arrays {
 
 
+
+
+
  /*4*/
 
-    public static void main(String[] args) {
-        String rev = reverse("Evol");
+  /*  public static void main(String[] args) {
+        String rev = reverse("yelraM boB");  //Bob Marley 🎶
         System.out.println(rev);
     }
 
@@ -24,7 +27,9 @@ class  Arrays {
             reverseContent = reverseContent + nodes[i];
         }
         return reverseContent;
-    }
+    }*/
+
+
 
     /*3*/
 

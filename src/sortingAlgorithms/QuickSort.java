@@ -28,7 +28,7 @@ public class QuickSort {
     public static void quickSortBase(int[] array, int begin, int end) {
     if ( begin >= end) {
         return;
-        System.out.println(quickSort(array[]));
+
     }
     /*Pivot*/
     int pivot = begin;
