@@ -93,6 +93,32 @@ public class Pet {
     public static void main(String[] args) {
         Pet myDogDez = new Pet(true, false, false, false);
         Pet myCatAsh = new Pet(false,false,true,false);
+
+        myCatAsh.setAge(1);
+        myCatAsh.setName("Dez");
+        myCatAsh.setSize("S");
+        myCatAsh.setColor("Light Brown");
+        myDogDez.setAge(5);
+        myDogDez.setName("Ash");
+        myDogDez.setColor("Brindle");
+        myDogDez.setSize("L");
+
+        String DogName = myDogDez.getName();
+        System.out.println("Name: " + DogName);
+
+        int DogAge = myDogDez.getAge();
+        System.out.println("DogAge = " + DogAge);
+        
+
+        
+        String DogColor = myDogDez.getColor();
+        System.out.println("DogColor = " + DogColor);
+        
+        String DogSize = myDogDez.getSize();
+        System.out.println("DogSize = " + DogSize);
+        
+        int CatAge = myCatAsh.getAge();
+        System.out.println("CatAge = " + CatAge);
     }
 
 }
