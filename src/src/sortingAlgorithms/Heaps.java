@@ -1,4 +1,4 @@
-package sortingAlgorithms;
+package src.sortingAlgorithms;
 import java.io.*;
 import java.util.*;
 import java.text.*;
@@ -26,7 +26,7 @@ public class Heaps {
 
     public static void main(String[] args) {
         Heaps maxHeap = new Heaps(10);
-        maxHeap.insert();
+       /* maxHeap.insert();*/
     }
 public static int data = 2;
 public int[] heap;
